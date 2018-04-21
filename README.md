@@ -11,12 +11,14 @@ See [commands.js](https://github.com/scoin/multichain-node/blob/development/lib/
 To use in your project:
 
 git clone <the repo>
+
 npm install
 
 ### Configurations
 make sure that multichain-blockchain is installed in your system and it should be connected to atleast one node.
  
 To find multichain user and pass parameters refer multichain documentation. 
+
 Configure multichain 'user' and 'pass' paramters as per your system multichain node in config.json file.
   
 ### Server Start
