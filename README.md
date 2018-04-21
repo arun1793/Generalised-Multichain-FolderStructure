@@ -10,18 +10,22 @@ See [commands.js](https://github.com/scoin/multichain-node/blob/development/lib/
 ### Usage
 To use in your project:
 
-git clone <the repo>
+git clone [repository link]
 
 npm install
 
 ### Configurations
-make sure that multichain-blockchain is installed in your system and it should be connected to atleast one node.
- 
-To find multichain user and pass parameters refer multichain documentation. 
+Pre-Requisite:
 
-Configure multichain 'user' and 'pass' paramters as per your system multichain node in config.json file.
+Make sure that multichain-blockchain is installed in your system and it should be connected to atleast one node.
+ 
+To find multichain user and pass parameters refer multichain documentation(https://www.multichain.com/developers). 
+
+Configure multichain 'user' and 'pass' paramters as per your system multichain node in config.json file of cloned folder.
   
 ### Server Start
+
+go to cloned project folder.
 
 run 'node app.js' command inside the cloned folder.
 
@@ -41,7 +45,7 @@ For Adding Data into Blockchain:
   "value": "12345"
 }
 
-For Reading Data from Blockchain:
+For Reading Data into Blockchain:
 
 url:http://localhost:3000/readData,
 
@@ -50,4 +54,5 @@ method:POST,
 body:{
   
   "key": "testing"
+
 } 
