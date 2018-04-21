@@ -35,6 +35,8 @@ For Testing From any rest client:
 
 For Adding Data into Blockchain:
  
+ (Asuuming port is running on 3000 in app.js file of project folder)
+ 
  url:http://localhost:3000/addData,
  
  method:POST,
