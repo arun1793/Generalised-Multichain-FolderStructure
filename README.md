@@ -41,7 +41,7 @@ For Adding Data into Blockchain:
   "value": "12345"
 }
 
-For Reading Data into Blockchain:
+For Reading Data from Blockchain:
 
 url:http://localhost:3000/readData,
 
