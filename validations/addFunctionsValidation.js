@@ -6,7 +6,7 @@ module.exports = {
 function addDataTestValidation(req, callback) {
     const key = req.body.key
     const value = req.body.value;
-    if (!key || !value  || !key.trim() || !value.trim()) {
+    if (!key || !key.trim()) {
 
         err = {
             "status": 400,
