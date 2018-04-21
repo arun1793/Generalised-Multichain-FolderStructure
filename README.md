@@ -28,17 +28,26 @@ run 'node app.js' command inside the cloned folder.
 ### Test:
 
 For Testing From any rest client:
+
 For Adding Data into Blockchain:
+ 
  url:http://localhost:3000/addData,
+ 
  method:POST,
+ 
  body:{
   "key": "testing",
+  
   "value": "12345"
 }
 
 For Reading Data into Blockchain:
+
 url:http://localhost:3000/readData,
+
 method:POST,
+
 body:{
+  
   "key": "testing"
 } 
